@@ -128,6 +128,7 @@ const allPokeDiv = document.getElementById("allPokeDiv")
 // render my list of pokemon once i have it
 function renderPokeList() {
     const allPoke = state.pokemon.map((pokemon) => {
+        //this is where i make a hash link for each pokemon name
         return `<div> <a href=#${pokemon.name}> ${pokemon.name} </a> </div>`
     })
     allPokeDiv.innerHTML = allPoke.join('')
