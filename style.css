@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+
+.pinapple{
+    background-color: yellow;
+    border: 2px solid black;
+    margin-right: 50px;
+}
+
+.nope{
+    background-color: red;
+    border: 2px solid black;
+    margin-left: 50px;
+}
